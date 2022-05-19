@@ -3,7 +3,7 @@
 
   <node pkg="akrobat_imu" name="akrobat_imu" type="akrobat_imu" output="screen" respawn="true">
     <param name="frame_id" value="imu_link" />
-    <param name="period_ms" value="100" />
+    <param name="period_ms" value="10" />
     <param name="uid" value="$(arg uid)" />
 
   </node>
