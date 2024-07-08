@@ -2,17 +2,19 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>akrobat_imu</name>
-  <version>1.0.0</version>
-  <description>Package for the akrobat imu</description>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="benjamin.mayer98@gmx.de">Benjamin Mayer</maintainer>
+  <license>TODO: License declaration</license>
 
-  <maintainer email="Karl.Franke@outlook.de">Karl Franke</maintainer>
+  <exec_depend>tinkerforge-pip</exec_depend>
 
-  <license>Apache 2.0</license>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
 
-  <buildtool_depend>catkin</buildtool_depend>
-  <depend>roscpp</depend>
-  <depend>sensor_msgs</depend>
-  <depend>tf</depend>
-  <depend>tf2</depend>
-
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
 </package>
