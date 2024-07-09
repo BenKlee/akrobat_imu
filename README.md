@@ -1,9 +1,11 @@
-# akrobat_imu
-ROS drivers for Tinkerforge V2 IMU
+# akrobat_imu repository
 
-install brick daemon:
+The ROS2 Humble package in this repository offers the functionality of publishing the data of a [Tinkerforge IMU Brick 2.0](https://www.tinkerforge.com/de/doc/Hardware/Bricks/IMU_V2_Brick.html) to ROS.
 
-```
-wget --backups=1 https://download.tinkerforge.com/tools/brickd/linux/brickd_linux_latest_arm64.deb
-sudo dpkg -i brickd_linux_latest_arm64.deb
-```
+This package is a dependency of the [akrobat package](https://github.com/informatik-mannheim/akrobat).
+
+
+## Installing dependencies
+
+The Tingerforge Brick Daemon needs to be installed on the machine connected to the device. \
+Installation instructions can be found [here](https://www.tinkerforge.com/de/doc/Software/Brickd_Install_Linux.html#brickd-install-linux).
